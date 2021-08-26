@@ -3,7 +3,7 @@ FROM centos:centos8
 ARG CHROMEDRIVER_VER=91.0.4472.101
 ARG ORG=opendatahub-io
 ARG BRANCH=master
-ARG ODS_CI_BRANCH=stable
+ARG ODS_CI_BRANCH=master
 
 ENV HOME /root
 WORKDIR /root
